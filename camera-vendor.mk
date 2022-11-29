@@ -7,8 +7,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/nothing/camera/proprietary/system/etc/permissions/NTCamera-google-permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/NTCamera-google-permissions.xml \
-    vendor/nothing/camera/proprietary/system/etc/permissions/NTCamera-permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/NTCamera-permissions.xml \
-    vendor/nothing/camera/proprietary/system/etc/permissions/privapp-permissions-platform-nothing.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-platform-nothing.xml
+    vendor/nothing/camera/proprietary/system/etc/permissions/NTCamera-permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/NTCamera-permissions.xml
 
 PRODUCT_PACKAGES += \
     NTCamera \
